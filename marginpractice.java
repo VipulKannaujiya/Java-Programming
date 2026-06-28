@@ -16,10 +16,6 @@ public class marginpractice {
         System.out.printf("====================================================\n");
 
 
-
-
-
-
         System.out.println("=============================================================");
         System.out.println("                  NATIONAL HIGHWAY AUTHORITY                 ");
         System.out.println("                       TOLL CASH RECEIPT                     ");
@@ -34,6 +30,25 @@ public class marginpractice {
         System.out.println("-------------------------------------------------------------");
         System.out.println("                    STATUS: PAID & ALLOWED                   ");
         System.out.println("                      HAVE A SAFE JOURNEY                    ");
+        System.out.println("=============================================================");
+
+
+        System.out.println("=============================================================");
+        System.out.println("                    STATE ELECTRICITY BOARD                  ");
+        System.out.println("                      MONTHLY UTILITY BILL                   ");
+        System.out.println("=============================================================");
+        System.out.printf("%-20s : %-9s\n", "Customer Name", "name");
+        System.out.printf("%-20s : %9s %-9s\n", "Unit Consumed", "unitConsumption", "khw");
+        System.out.printf("%-20s : %9s\n", "Meter Category", "meterCategory");
+        System.out.printf("---------------------------------------------------------\n");
+        System.out.printf("%-20s : Rs. %9s\n", "Energy Base Charge", "baseamount");
+        System.out.printf("%-20s : Rs. %9s\n", "Fixed Meter Rent", "fixedCharge");
+        System.out.printf("%-20s : Rs. %9s\n", "Electricity Duty(5%)", "electricityDuty");
+        System.out.printf("---------------------------------------------------------\n");
+        System.out.printf("%-20s : Rs. %9s\n", "TOTAL AMOUNT PAYABLE", "totalBill");
+        System.out.printf("---------------------------------------------------------\n");
+        System.out.println("                    DUE DATE: WITHIN 15 DAYS                 ");
+        System.out.println("                 PLEASE SAVE ENERGY, SAVE WATER              ");
         System.out.println("=============================================================");
     }
 }
