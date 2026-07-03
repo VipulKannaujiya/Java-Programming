@@ -56,5 +56,7 @@ public class SipCalculator {
         System.out.println("         🟢 WEALTH STATUS: ON TRACK TO WEALTH!         ");
         System.out.println("             HAPPY INVESTING & SAVING! 🙏              ");
         System.out.println("======================================================");
+
+        input.close();
     }
 }
