@@ -1,4 +1,3 @@
-import java.lang.classfile.constantpool.DoubleEntry;
 import java.util.Scanner;
 
 public class SipCalculator {
