@@ -66,5 +66,6 @@ public class FunnyMiniCalculator {
                 break;
             }
         }
+        input.close();
     }
 }
