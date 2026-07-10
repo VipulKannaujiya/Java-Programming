@@ -23,5 +23,6 @@ public class TrafficLightGuide {
         else{
             System.out.println("लौडेंन भोज्यम.........🫵");
         }
+        input.close();
     }
 }
