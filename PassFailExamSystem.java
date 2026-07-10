@@ -20,5 +20,6 @@ public class PassFailExamSystem {
         else{
             System.out.println("AUR REELS DEKHO, FAIL HO GAYE NA....");
         }
+        input.close();
     }
 }
