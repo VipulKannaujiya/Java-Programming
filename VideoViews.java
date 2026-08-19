@@ -1,7 +1,5 @@
 //import java.util.Scanner;
 
-import javax.lang.model.type.NoType;
-
 public class VideoViews {
     public static void main(String[] args) {
         System.out.println("=============================================================");
