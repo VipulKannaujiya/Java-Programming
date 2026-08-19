@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HotelRoomBooking",
+            "request": "launch",
+            "mainClass": "HotelRoomBooking",
+            "projectName": "Java-Programming_22d960f9"
+        },
+        {
+            "type": "java",
+            "name": "MovieTicketDiscountCalculator",
+            "request": "launch",
+            "mainClass": "MovieTicketDiscountCalculator",
+            "projectName": "Java-Programming_22d960f9"
+        },
+        {
+            "type": "java",
+            "name": "FunnyMiniCalculator",
+            "request": "launch",
+            "mainClass": "FunnyMiniCalculator",
+            "projectName": "Java-Programming_22d960f9"
+        },
+        {
+            "type": "java",
+            "name": "FunnyLoginSystem",
+            "request": "launch",
+            "mainClass": "FunnyLoginSystem",
+            "projectName": "Java-Programming_22d960f9"
+        },
+        {
+            "type": "java",
+            "name": "ATMCashWithdrawalLimitValidator",
+            "request": "launch",
+            "mainClass": "ATMCashWithdrawalLimitValidator",
+            "projectName": "Java-Programming_22d960f9"
+        },
+        {
+            "type": "java",
             "name": "PyramidPattern",
             "request": "launch",
             "mainClass": "PyramidPattern",
