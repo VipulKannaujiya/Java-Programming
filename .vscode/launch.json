@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AreaOfTriange",
+            "request": "launch",
+            "mainClass": "AreaOfTriange",
+            "projectName": "Java-Programming_22d960f9"
+        },
+        {
+            "type": "java",
             "name": "HotelRoomBooking",
             "request": "launch",
             "mainClass": "HotelRoomBooking",
