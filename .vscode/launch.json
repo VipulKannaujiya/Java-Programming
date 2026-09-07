@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Java-Programming_22d960f9"
+        },
+        {
+            "type": "java",
+            "name": "SmartCart",
+            "request": "launch",
+            "mainClass": "SmartCart",
+            "projectName": "Java-Programming_22d960f9"
+        },
+        {
+            "type": "java",
             "name": "AreaOfTriange",
             "request": "launch",
             "mainClass": "AreaOfTriange",
