@@ -33,10 +33,8 @@ public class SmartCart {
             subtotal += Product_price[i] * Quantity[i];
 
         }
-        // GST CALCULATION
-        Double Gst_Amount = subtotal * 0.18;
-        // FINAL AMOUNT
-        Double Final_Amount = subtotal + Gst_Amount;
+        
+        
 
         // TASK 2 - PREMIUM PRODUCTS
         int PremiumItemCount = 0;
@@ -51,16 +49,17 @@ public class SmartCart {
 
         // TASK 3 -BLUEPRINT: FLASH SALE (CHEAPEST ITEM FREE!)
         Double MinPrice = Product_price[0];
+        String MinProductName = Product_name[0];
         for(int i=0; i<product_size; i++){
             if (Product_price[i] < MinPrice) {
                 MinPrice = Product_price[i]; // 10 20 30 40 10
-            }
-            else if (Product_price[i] == MinPrice) {
-                MinPrice = Product_price[i];
+                MinProductName = Product_name[i];
             }
         }
-        System.out.println(MinPrice);
-        Double discountSubtotal = Final_Amount - MinPrice;
+        Double discountSubtotal = subtotal - MinPrice;
+        // GST CALCULATION
+        Double Gst_Amount = discountSubtotal * 0.18;
+        Double Final_Amount = discountSubtotal + Gst_Amount;
 
         // PRINTING THE FINAL BILL
         System.out.println("===========================================================");
@@ -73,6 +72,8 @@ public class SmartCart {
         }
         System.out.println("===========================================================");
         System.out.printf("SUBTOTAL: %20.2f\n", subtotal);
+        System.out.println("🎉 Flash Sale Applied on " + MinProductName + ": -₹" + MinPrice);
+        System.out.println("Discount Subtotal = " + discountSubtotal);
         System.out.printf("GST (18%%): %18.2f\n", Gst_Amount);
         System.out.printf("FINAL AMOUNT: %16.2f\n", Final_Amount);
         System.out.println("-----------------------------------------------------------");
@@ -81,9 +82,7 @@ public class SmartCart {
             if (Premium_product[i] != null) {
                 System.out.printf("PREMIUM PRODUCT Name: %22s\n", Premium_product[i]);
             }
-        }
-        System.out.println("🎉 Flash Sale Discount Applied: " + "₹" + MinPrice + " Off");
-        System.out.println("Discount Subtotal = " + discountSubtotal);
+        }        
         System.out.println("===========================================================");
         input.close();
     }
