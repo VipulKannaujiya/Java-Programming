@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GetterSetter",
+            "request": "launch",
+            "mainClass": "GetterSetter",
+            "projectName": "Java-Programming_22d960f9"
+        },
+        {
+            "type": "java",
+            "name": "Account$GetterSetter",
+            "request": "launch",
+            "mainClass": "Account$GetterSetter",
+            "projectName": "Java-Programming_22d960f9"
+        },
+        {
+            "type": "java",
+            "name": "Day10",
+            "request": "launch",
+            "mainClass": "Day10",
+            "projectName": "Java-Programming_22d960f9"
+        },
+        {
+            "type": "java",
             "name": "Test",
             "request": "launch",
             "mainClass": "Test",
